@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-pastel-blue">
+    <header class="text-center py-5">
+        <h1 class="text-4xl font-bold">Welcome to My Portfolio</h1>
+        <nav class="mt-4">
+            <a href="#about" class="text-lg mx-4">About Me</a>
+            <a href="#projects" class="text-lg mx-4">Projects</a>
+            <a href="#skills" class="text-lg mx-4">Skills</a>
+            <a href="#contact" class="text-lg mx-4">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="py-10 text-center">
+        <h2 class="text-3xl font-semibold">About Me</h2>
+        <p class="mt-4 px-6">I am a passionate web developer with experience in building responsive and user-friendly websites. I enjoy creating seamless user experiences and exploring new technologies.</p>
+    </section>
+
+    <section id="projects" class="py-10">
+        <h2 class="text-center text-3xl font-semibold">Projects</h2>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow">
+                        <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 1</h5>
+                            <p class="card-text">Description of Project 1.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow">
+                        <img src="images/project2.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 2</h5>
+                            <p class="card-text">Description of Project 2.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow">
+                        <img src="images/project3.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 3</h5>
+                            <p class="card-text">Description of Project 3.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-10 text-center">
+        <h2 class="text-3xl font-semibold">Skills</h2>
+        <div class="mt-4">
+            <ul class="list-inline">
+                <li class="list-inline-item">HTML</li>
+                <li class="list-inline-item">CSS</li>
+                <li class="list-inline-item">JavaScript</li>
+                <li class="list-inline-item">React</li>
+                <li class="list-inline-item">Node.js</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="py-10 text-center">
+        <h2 class="text-3xl font-semibold">Contact Me</h2>
+        <form action="https://formspree.io/YOUR_FORM_ID" method="POST" class="mt-4">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required class="form-control mb-2">
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required class="form-control mb-2">
+            </div>
+            <div class="form-group">
+                <textarea name="message" rows="4" placeholder="Your Message" required class="form-control mb-2"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
