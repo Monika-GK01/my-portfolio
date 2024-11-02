@@ -1,0 +1,27 @@
+/* Custom CSS */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.bg-pastel-blue {
+    background-color: #AEEEEE; /* Light pastel blue */
+}
+
+.card {
+    background-color: #ffffff; /* White background for cards */
+}
+
+.card-title {
+    color: #333; /* Darker text color for card titles */
+}
+
+.card-text {
+    color: #555; /* Gray text for card descriptions */
+}
+
+.list-inline-item {
+    background-color: #E3B6E5; /* Light pastel purple */
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+}
